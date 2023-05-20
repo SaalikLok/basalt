@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Basalt | Convert Markdown to Rich Text</title>
+</head>
+<body>
+
+  <div class="logo-area">
+    <img class="basalt-logo" src="./images/basalt.jpg" alt="A basalt stone with purple flecks.">
+    <h1>Basalt</h1>
+  </div>
+  <div class="thatch-container">
+    <p>Paste in Markdown on the right and convert it to formated text, ready to be copied and pasted into Google Docs or wherever else.</p>
+    <div class="thatch-split">
+      <div class="markdown-container">
+        <textarea id="markdown-text" rows="5"></textarea>
+        <button id="submit-markdown-button">Submit</button>
+      </div>
+      <div id="richtext"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.3/purify.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
