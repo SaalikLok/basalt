@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./index.css">
-  <title>Basalt | Convert Markdown to Rich Text</title>
+  <title>Basalt | Simple Markdown Formatting</title>
 </head>
 <body>
 
@@ -18,11 +18,17 @@
     <div class="thatch-split">
       <div class="markdown-container">
         <textarea id="markdown-text" rows="5"></textarea>
-        <button id="submit-markdown-button">Submit</button>
+        <button id="submit-markdown-button">Convert</button>
       </div>
-      <div id="richtext"></div>
+      <div class="text-container">
+        <div id="text"></div>
+        <p class="text--wordcount"></p>
+      </div>
     </div>
   </div>
+  <footer class="thatch-container--narrow">
+    Built by <a href="http://saaliklok.com" target="_blank" rel="noopener noreferrer">Saalik Lokhandwala</a>, &copy; 2023.
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.3/purify.min.js"></script>
   <script src="./index.js"></script>

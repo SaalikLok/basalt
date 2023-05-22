@@ -1,6 +1,6 @@
 # Basalt
 
-![basalt-logo](images/basalt.jpg)
+![basalt-logo](images/basalt.jpg =200x200)
 
 Paste in Markdown, get formated HTML text, ready to be copied and pasted into Google Docs or wherever else.
 
